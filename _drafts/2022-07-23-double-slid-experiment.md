@@ -5,7 +5,7 @@ date: 2022-07-23 19:49:00 +0200
 categories: physics
 ---
 
-{% assign images = site.baseurl | append: '/assets/img/' | append: page.path | replace: ".md","" | replace: "_posts/","" %}
+{% assign images = site.baseurl | append: '/assets/img/' | append: page.path | replace: ".md","" | replace: "_posts/","" | replace: "_drafts/","" %}
 
 # El experimento de la doble rendija más cutre possible.
 
