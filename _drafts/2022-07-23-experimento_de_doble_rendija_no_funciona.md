@@ -1,17 +1,20 @@
 ---
 layout: post
-title: "El experimento de doble rendija más cutre"
+title: "El experimento de doble rendija más cutre (no funciona)"
 date: 2022-07-23 19:49:00 +0200
 categories: physics
 ---
 
 {% assign images = site.baseurl | append: '/assets/img/' | append: page.path | replace: ".md","" | replace: "_posts/","" | replace: "_drafts/","" %}
 
-# El experimento de la doble rendija más cutre possible.
+Estuve mirando por internet ejemplos del experimento de la doble rendija y casi todos utilizaban un láser. Yo como no tengo láser voy a usar una linterna. Aquí se ve el resultado final. 
 
-Estuve mirando por internet ejemplos del experimento de la doble rendija y casi todos utilizaban un láser. Yo como no tengo láser voy a usar una linterna. Aquí se ve el resultado final.
+Finalmente me he dado cuenta de que **no funciona :(**. La linterna que he usado tiene un montón de leds, lo que hace que haya múltiples emisores de luz, lo que provoca que la rendija se proyecte des de diferentes ángulos. Lo que no acabo de entender es porqué la luz sale azulada, pero ese es otro tema.
 
-![]({{ images }}/resultados.jpg)
+La próxima vez usaré un laser. Además, es posible que las rendijas tengan que ser más finas y estar más juntas.
+
+A modo de premio de consolación, he encontrado [este vídeo](https://www.youtube.com/watch?v=Iuv6hY6zsd0) (en inglés) muy interesante. En él llevan a cabo el experimento con la propia luz del sol y hacen una comparación el agua que me ha parecido muy chula.
+
 
 ## Material
 
@@ -53,23 +56,5 @@ Y finalmente los resultados. He utilizado el espacio debajo de mi cama, pero cua
 
 ![]({{ images }}/resultado.gif)
 
-TODO: Porqué sale azulada?
-
-## Jugando con los parámetros
-Según [este post](https://physics.stackexchange.com/questions/54052/is-it-possible-to-reproduce-double-slit-experiment-by-myself-at-home):
-* Si las rendijas estan separadas por una distancia `d`. En mi caso **1,5mm** aproximadamente.
-* Si la luz tiene una longitud de onda `λ`.
-* Si la distancia entre el cartón y la pared es `L`.
-La distancia `Δy` entre las franjas de luz proyectadas en la pared será aproximádamente:
-
-$$ \Delta y \approx \frac{\lambda L}{d} $$
-
-Lamentablemente al usar luz blanca no tenemos una longitud de onda `λ` especifica.
-
-
-
-## Bonus
-
-He encontrado [este vídeo](https://www.youtube.com/watch?v=Iuv6hY6zsd0) (en inglés) muy interesante. En él llevan a cabo el experimento con la propia luz del sol y hacen una comparación el agua que me ha parecido muy chula.
 
 
