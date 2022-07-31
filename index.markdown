@@ -7,6 +7,3 @@ layout: home
 
 {% assign images = site.baseurl | append: '/assets/img' %}
 ![]({{images}}/dices.jpeg)
-
-
-This is a test
