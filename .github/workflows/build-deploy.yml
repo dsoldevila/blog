@@ -28,4 +28,4 @@ jobs:
         aws-region: ${{ secrets.AWS_REGION }}
 
     - name: Deploy
-      run: aws s3 sync ${{ github.workspace }}/_site s3://arandomsite.com
+      run: aws s3 sync ${{ github.workspace }}/_site s3://${{ secrets.AWS_BUCKET }}
