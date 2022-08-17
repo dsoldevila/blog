@@ -2,7 +2,7 @@
 layout: post
 title: "Run Systemd in a Ci tool"
 date: 2022-08-17 17:20:00 +0200
-categories: physics
+categories: devops
 ---
 
 
@@ -88,6 +88,8 @@ And then
 ```bash
 nsenter -t $pid -m -p systemctl start ${SOME_SERVICE}
 ```
+
+Finally, I tried again without binding `/sys/fs/cgroup` directory (`-v /sys/fs/cgroup:/sys/fs/cgroup:ro`) and it worked. I did not find why it is necessary, so I just removed it.
 
 ### Debian 10
 
