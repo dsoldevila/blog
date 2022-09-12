@@ -2,7 +2,7 @@
 layout: post
 title: "Road to Quantum Computing: The beginning"
 date: 2022-08-08 17:20:00 +0200
-categories: physics
+categories: self-learning
 ---
 
 {% assign images = site.baseurl | append: '/assets/img/' | append: page.path | replace: ".md","" | replace: "_posts/","" | replace: "_drafts/","" %}
